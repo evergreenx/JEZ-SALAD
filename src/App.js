@@ -3,6 +3,7 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import data from "./data.json";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
+import Hero2 from "./component/Hero2";
 
 function App() {
   const [viewport, setViewport] = useState({
@@ -71,6 +72,7 @@ function App() {
   <Header />
 
 <Hero />
+<Hero2/>
   </div>
   
   

@@ -13,15 +13,34 @@ const Hero = () => {
             Healthy With Jez Salad
           </h2>
 
-          <p className="text-bold text-xl mb-7 w-50">
+          <p className="text-bold text-xl mb-7 w-50 text-black-text">
             Imagine you don't need a diet because we provide healthy and
             delicious food for you!
           </p>
 
-          <div className="orderbtn">
+          <div className="orderbtn mb-20">
             <button className=" px-11 rounded-full py-4 border-0 bg-primary font-semibold text-white">
               Order Food
             </button>
+          </div>
+
+          <div className="review flex ">
+            <div className="mr-14">
+              <p className="text-2xl font-semibold">5.000+</p>
+              <p className="text-base text-black-text">Customer</p>
+            </div>
+
+            <div>
+              <p className="text-2xl font-semibold mr-14">8.000+</p>
+
+              <p className="text-base text-black-text">Delivery</p>
+            </div>
+
+            <div>
+              <p className="text-2xl font-semibold">1.000+</p>
+
+              <p className="text-base text-black-text">Ratings</p>
+            </div>
           </div>
         </div>
         <div className="w-full flex justify-center mx-auto text-center">

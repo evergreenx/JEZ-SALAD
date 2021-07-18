@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         primary: "#FB9333",
         'basic-black':'#575757',
-        'hero-action':' #FFF0DC'
+        'hero-action':' #FFF0DC',
+        'black-text':' #828282'
+        
         
       },
 
