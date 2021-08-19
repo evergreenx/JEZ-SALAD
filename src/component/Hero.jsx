@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Hero = () => {
+
   return (
     <section className="">
       <div className="grid  grid-cols-1 lg:grid-cols-2 mt-28 mx-auto">
@@ -51,6 +52,7 @@ const Hero = () => {
           />
         </div>
       </div>
+
     </section>
   );
 };

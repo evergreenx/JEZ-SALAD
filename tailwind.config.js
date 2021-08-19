@@ -3,11 +3,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+
+      margin: {
+        '-72': '-18rem',
+       } ,
       colors: {
         primary: "#FB9333",
         'basic-black':'#575757',
         'hero-action':' #FFF0DC',
-        'black-text':' #828282'
+        'black-text':' #828282',
+        'testimonial-bg' : '#FFF8ED'
         
         
       },

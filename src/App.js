@@ -4,6 +4,7 @@ import data from "./data.json";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Hero2 from "./component/Hero2";
+import Testimonial from "./component/Testimonial";
 
 function App() {
   const [viewport, setViewport] = useState({
@@ -66,17 +67,19 @@ function App() {
     //       </Popup>):null}
     //     </ReactMapGL>
 
-    <div className="bg-hero-pattern bg-cover bg-no-repeat font-sansx w-full ">
+    <div className="bg-hero-pattern bg-cover bg-no-repeat font-sansx">
   
-  <div className="container">
+  {/* <div className="container"> */}
   <Header />
 
 <Hero />
 <Hero2/>
+
+<Testimonial/>
   </div>
   
   
-    </div>
+    // </div>
   );
 }
 
