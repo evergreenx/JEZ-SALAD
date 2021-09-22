@@ -37,7 +37,7 @@ const Testimonial = () => {
               of you guys! because they really take care of the quality.
             </p>
           </div>
-
+  
           <div class="card bg-white rounded-2xl w-64 px-6 pb-8 mb-56 mt-5">
             <img
               className="w-20 h-20 rounded-lg relative  -top-12 left-1"
