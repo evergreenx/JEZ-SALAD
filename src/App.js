@@ -5,17 +5,11 @@ import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Hero2 from "./component/Hero2";
 import Testimonial from "./component/Testimonial";
+import Menu from "./component/Menu";
 
 function App() {
-  const [viewport, setViewport] = useState({
-    width: "100vw",
-    height: "100vh",
-    latitude: 45.4211,
-    longitude: -75.6983,
-    zoom: 12,
-  });
 
-  const [selected, setselected] = useState();
+
 
   return (
     //     <ReactMapGL
@@ -76,6 +70,9 @@ function App() {
 <Hero2/>
 
 <Testimonial/>
+
+
+<Menu/>
   </div>
   
   

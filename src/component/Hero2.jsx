@@ -13,7 +13,7 @@ function Hero2() {
         </h1>
       </div>
 
-      <div className="w-96">
+      <div className="">
         <p className="text-xl tracking-tighter text-black-text">
           We continue to consistently choose and maintain the quality of the
           fruit served, so that it remains fresh and nutritious when you eat it.

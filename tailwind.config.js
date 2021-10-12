@@ -12,7 +12,8 @@ module.exports = {
         'basic-black':'#575757',
         'hero-action':' #FFF0DC',
         'black-text':' #828282',
-        'testimonial-bg' : '#FFF8ED'
+        'testimonial-bg' : '#FFF8ED',
+        'menu-color' : '#585858',
         
         
       },
