@@ -44,13 +44,13 @@ const Menu = () => {
           <>
           <div class="flex items-center justify-center h-screen">
   <figure class="relative max-w-xs cursor-pointer">
-    <img class="rounded-lg shadow-xl hover:shadow-2xl" src={i.image} alt="" />
-    <figcaption class="absolute text-lg -mt-16 text-white px-4">
-      <div>
-        <h1>Title</h1>
+    <img class="rounded-lg shadow-xl hover:shadow-2xl" src={i.image} alt="menu" />
+    <figcaption class="absolute text-lg -mt-24 text-white px-4">
+      <div class="mb-2">
+        <h1 className="font-medium text-xl">{i.name}</h1>
       </div>
       <div>
-        <h1>Subtitle</h1>
+        <h1 className="font-bold text-2xl">{i.price}</h1>
       </div>
       </figcaption>
   </figure>
