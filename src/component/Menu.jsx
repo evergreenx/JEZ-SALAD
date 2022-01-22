@@ -39,10 +39,10 @@ const Menu = () => {
         </div>
       </div>
 
-      <div className="flex lg:flex-row flex-col justify-between  items-center mt-16">
+      <div className="flex lg:flex-row flex-col justify-between  items-center mt-16 ">
         {menuData.map((i) => (
           <>
-          <div class="flex items-center justify-center h-screen">
+          <div class="flex items-center justify-center h-screen bg-red-200 ">
   <figure class="relative max-w-xs cursor-pointer">
     <img class="rounded-lg shadow-xl hover:shadow-2xl" src={i.image} alt="menu" />
     <figcaption class="absolute text-lg -mt-24 text-white px-4">
@@ -50,7 +50,7 @@ const Menu = () => {
         <h1 className="font-medium text-xl">{i.name}</h1>
       </div>
       <div>
-        <h1 className="font-bold text-2xl">{i.price}</h1>
+        {/* <h1 className="font-bold text-2xl">{i.price}</h1> */}
       </div>
       </figcaption>
   </figure>
