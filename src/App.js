@@ -6,14 +6,8 @@ import Hero from "./component/Hero";
 import Hero2 from "./component/Hero2";
 import Testimonial from "./component/Testimonial";
 import Menu from "./component/Menu";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
 
 function App() {
-
-
-
   return (
     //     <ReactMapGL
     //       {...viewport}
@@ -63,23 +57,21 @@ function App() {
     // </address>
     //       </Popup>):null}
     //     </ReactMapGL>
+<div className="bg-hero-pattern bg-cover bg-no-repeat">
+    <div className=" font-sansx  xl:max-w-screen-2xl  mx-auto  ">
+      {/* <div className="container"> */}
+      <Header />
 
-    <div className="bg-hero-pattern bg-cover bg-no-repeat font-sansx">
-  
-  {/* <div className="container"> */}
-  <Header />
+      <Hero />
+      <Hero2 />
 
-<Hero />
-<Hero2/>
+      {/* <Testimonial/> */}
 
-<Testimonial/>
+      <Menu />
+    </div>
 
+ </div>
 
-<Menu/>
-  </div>
-  
-  
-    // </div>
   );
 }
 

@@ -1,12 +1,12 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-
-import { FreeMode, Pagination } from "swiper";
+import Flicking from "@egjs/react-flicking";
+import "@egjs/react-flicking/dist/flicking.css";
+// Or, if you have to support IE9
+import "@egjs/react-flicking/dist/flicking-inline.css";
+// import 'swiper/css';
 
 const Testimonial = () => {
+  const [panels, setPanels] = React.useState([0, 1, 2, 3, 4]);
   return (
     <div className=" bg-testimonial-bg pt-28">
       <div className="mt-28 flex lg:flex-row flex-col lg:mx-16 mx-5">
@@ -28,28 +28,13 @@ const Testimonial = () => {
 
         <div className="slider flex justify-around">
           
-  
-        <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-   
+        <Flicking renderOnlyVisible={true}>
+      {panels.map(index => <div className="flicking-panel" key={index}>{index + 1}</div>)}
+    </Flicking>
+    <div className="block is-flex is-justify-content-center">
+      <span className="button mr-2 is-info is-outlined" onClick={() => setPanels([panels[0] - 1, ...panels])}>Prepend</span>
+      <span className="button mr-2 is-info is-outlined" onClick={() => setPanels([...panels, panels[panels.length - 1] + 1])}>Append</span>
+    </div>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ function CardSection() {
   ];
   return (
     <div>
-      <div className="flex justify-between lg:flex-row flex-col mb-20 max-w-6xl mx-auto ">
+      <div className="flex justify-between lg:flex-row flex-col mb-20">
         {data.map((card) => (
           <>
             <div className="p-10 w-80  rounded-3xl hover:shadow-2xl hover:bg-white ">
