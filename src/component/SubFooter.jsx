@@ -3,7 +3,7 @@ import React from "react";
 export default function SubFooter() {
   return (
     <div className="sub-footer p-40 ">
-      <div className=" bg-blue-200 text-center px-20 py-16 rounded-3xl ">
+      <div className=" bg-testimonial-bg text-center px-20 py-16 rounded-3xl ">
         <h4 className="lg:text-xl md:text-lg text-primary leading-10">
           Our Subscribe
         </h4>
@@ -20,18 +20,16 @@ export default function SubFooter() {
         <div className="newsletter">
           {/* input for newsletter */}
 
-          <div class="search-box mx-auto my-auto w-full rounded-3xl sm:w-full md:w-full lg:w-3/4 xl:w-3/4">
-            <form class="flex  bg-white rounded-3xl">
-              <input
-                className="h-16  bg-white text-grey-darker py-2 font-normal text-grey-darkest border border-gray-100 w-full px-2 outline-none text-lg text-gray-600"
-                type="text"
-                placeholder="What do you want to learn?"
-              />
+          <div class="search-box mx-auto rounded-full my-auto w-full  sm:w-full md:w-full lg:w-3/4 xl:w-3/4 lg:flex  lg:bg-white p-2 ">
+            <input
+              className="h-16 rounded-full   bg-white  py-2 font-normal border-gray-100 w-full px-2 outline-none text-lg text-gray-600"
+              type="text"
+              placeholder="Enter your email address"
+            />
 
-              <button class="bg-primary text-lg text-white font-bold py-3 px-6 rounded-3xl">
-                Subscribe
-              </button>
-            </form>
+            <button class="bg-primary text-lg text-white font-bold py-3 px-6 rounded-full">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
