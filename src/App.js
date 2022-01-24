@@ -6,6 +6,7 @@ import Hero from "./component/Hero";
 import Hero2 from "./component/Hero2";
 import Testimonial from "./component/Testimonial";
 import Menu from "./component/Menu";
+import SubFooter from "./component/SubFooter";
 
 function App() {
   return (
@@ -68,6 +69,8 @@ function App() {
       {/* <Testimonial/> */}
 
       <Menu />
+
+      <SubFooter />
     </div>
 
  </div>
