@@ -16,15 +16,15 @@ function CardSection() {
     {
       url: "https://res.cloudinary.com/evergreenx/image/upload/v1626600753/Group_8444_hssr69.svg",
       heading: "100 Top Brand",
-      body: "We are one of the best brands in the Food and Beverage sector in Indonesia.",
+      body: "We are one of the best brands in the Food and Beverage sector in Indonesia.  suitable for all people ",
     },
   ];
   return (
-    <div>
+    <div className="">
       <div className="flex justify-between lg:flex-row flex-col mb-20">
         {data.map((card) => (
           <>
-            <div className="p-10 w-80  rounded-3xl hover:shadow-2xl hover:bg-white ">
+            <div className="p-10 w-80 mx-auto items-center lg:text-left text-center lg:block flex flex-col    rounded-3xl hover:shadow-2xl hover:bg-white ">
               <img src={card.url} alt="illustartion" className="mb-20" />
               <h1 className=" font-semibold text-2xl tracking-tighter">
                 {card.heading}

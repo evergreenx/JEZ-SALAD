@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center lg:mx-20 mx-5 pt-6">
+    <header className="flex justify-between items-center lg:mx-20 mx-5 pt-6 ">
       <div className="logo text-lg">
         <img
           src="https://res.cloudinary.com/evergreenx/image/upload/v1626017966/JEZ_SALAD_fuuirs.svg"

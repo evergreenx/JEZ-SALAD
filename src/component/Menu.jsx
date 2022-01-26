@@ -39,12 +39,12 @@ const Menu = () => {
         </div>
       </div>
 
-      <div className="flex lg:flex-row flex-col justify-between  items-center mt-16 ">
+      <div className="flex lg:flex-row flex-col justify-between  items-center my-20  ">
         {menuData.map((i) => (
           <>
-          <div class="flex items-center justify-center h-screen max-w-6xl mx-auto  ">
-  <figure class="relative max-w-xs cursor-pointer">
-    <img class="rounded-lg shadow-xl hover:shadow-2xl" src={i.image} alt="menu" />
+          <div class="flex items-center justify-center  max-w-6xl mx-auto my-20  ">
+  <figure class="relative max-w-xs cursor-pointer bg-transparent">
+    <img class="rounded-3xl shadow-xl hover:shadow-2xl" src={i.image} alt="menu" />
     <figcaption class="absolute text-lg -mt-24 text-white px-4">
       <div class="mb-2">
         <h1 className="font-medium text-xl">{i.name}</h1>
