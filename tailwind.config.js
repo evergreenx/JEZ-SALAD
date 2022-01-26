@@ -25,7 +25,7 @@ module.exports = {
 
  
           "newsletter-bg":
-          "url('https://res.cloudinary.com/evergreenx/image/upload/v1626020949/Group_8438_vfwwdj.svg')",
+          "url('https://res.cloudinary.com/evergreenx/image/upload/v1644278373/Group_8441_ftmfcu.svg')",
 
       }),
     },

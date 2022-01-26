@@ -48,7 +48,7 @@ const Hero = () => {
           <img
             alt="hero"
             // className="w-96"
-            src="https://res.cloudinary.com/evergreenx/image/upload/v1626022075/Group_8425_birxsv.png"
+            src="https://res.cloudinary.com/evergreenx/image/upload/v1644281716/Group_8442_1_pbivwf.png"
           />
         </div>
       </div>
