@@ -6,6 +6,9 @@ import Hero from "./component/Hero";
 import Hero2 from "./component/Hero2";
 import Testimonial from "./component/Testimonial";
 import Menu from "./component/Menu";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
 
 function App() {
 

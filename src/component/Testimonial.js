@@ -1,4 +1,10 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+import { FreeMode, Pagination } from "swiper";
 
 const Testimonial = () => {
   return (
@@ -21,39 +27,29 @@ const Testimonial = () => {
         </div>
 
         <div className="slider flex justify-around">
-          <div class="card bg-white rounded-2xl w-64 px-6 pb-8 mb-56 mt-5 mr-20">
-            <img
-              className="w-20 h-20 rounded-lg relative  -top-12 left-1"
-              src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
-              alt="avatar"
-            />
-
-            <h2>Evergreen D.</h2>
-            <small className="text-gray-500 ">22 years</small>
-
-            <p>
-              The salad is fresh!!! Don't ask about the sauce again, it's really
-              delicious, it's going to be routine. I recommend this salad to all
-              of you guys! because they really take care of the quality.
-            </p>
-          </div>
+          
   
-          <div class="card bg-white rounded-2xl w-64 px-6 pb-8 mb-56 mt-5">
-            <img
-              className="w-20 h-20 rounded-lg relative  -top-12 left-1"
-              src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
-              alt="avatar"
-            />
-
-            <h2>Evergreen D.</h2>
-            <small className="text-gray-500 ">22 years</small>
-
-            <p>
-              The salad is fresh!!! Don't ask about the sauce again, it's really
-              delicious, it's going to be routine. I recommend this salad to all
-              of you guys! because they really take care of the quality.
-            </p>
-          </div>
+        <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
+   
         </div>
       </div>
     </div>
