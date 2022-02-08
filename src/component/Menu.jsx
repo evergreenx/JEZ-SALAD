@@ -25,7 +25,10 @@ const Menu = () => {
   ];
 
   return (
-    <div className="lg:mx-16 mx-5">
+    <div className="lg:mx-16 mx-5" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="1000"
+    data-aos-offset="0">
       <div className=" flex flex-col items-center justify-center mt-28">
         <h2 className="text-primary font-medium text-xl mb-3 text-center ">
           MENU YANG MEMBUATMU JATUH CINTA

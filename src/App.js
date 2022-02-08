@@ -7,6 +7,10 @@ import Hero2 from "./component/Hero2";
 // import Testimonial from "./component/Testimonial";
 import Menu from "./component/Menu";
 import SubFooter from "./component/SubFooter";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (
