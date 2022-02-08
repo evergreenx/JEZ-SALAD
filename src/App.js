@@ -1,10 +1,10 @@
-import { useState } from "react";
-import ReactMapGL, { Marker, Popup } from "react-map-gl";
-import data from "./data.json";
+import React from "react";
+// import ReactMapGL, { Marker, Popup } from "react-map-gl";
+// import data from "./data.json";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Hero2 from "./component/Hero2";
-import Testimonial from "./component/Testimonial";
+// import Testimonial from "./component/Testimonial";
 import Menu from "./component/Menu";
 import SubFooter from "./component/SubFooter";
 
