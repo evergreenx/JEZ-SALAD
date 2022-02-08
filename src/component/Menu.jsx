@@ -45,7 +45,7 @@ const Menu = () => {
           <div class="flex items-center justify-center  max-w-6xl mx-auto my-20  ">
   <figure class="relative max-w-xs cursor-pointer bg-transparent">
     <img class="rounded-3xl  hover:shadow-2xl" src={i.image} alt="menu" />
-    <figcaption class="absolute bg-white text-lg -mt-24 text-white px-4">
+    <figcaption class="absolute  text-lg -mt-24 text-white px-4">
       <div class="mb-2">
         <h1 className="font-medium text-xl">{i.name}</h1>
       </div>

@@ -1,5 +1,6 @@
 module.exports = {
-  purge: [],
+  purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
+
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -23,10 +24,8 @@ module.exports = {
         "hero-pattern":
           "url('https://res.cloudinary.com/evergreenx/image/upload/v1626020949/Group_8438_vfwwdj.svg')",
 
- 
-          "newsletter-bg":
+        "newsletter-bg":
           "url('https://res.cloudinary.com/evergreenx/image/upload/v1644278373/Group_8441_ftmfcu.svg')",
-
       }),
     },
   },
